@@ -11,6 +11,16 @@
         }
         textarea{
             padding: 10px;
+            margin-bottom: 10px;
+        }
+        #countTotal{
+            font-weight: bold;
+            font-size: large;
+        }
+        #countNoSpaces{
+            font-weight: bold;
+            color: red;
+            font-size: large;
         }
     </style>
 </head> 
@@ -19,9 +29,9 @@
         id="textInput" 
         rows="15" 
         cols="45" 
-        placeholder="글자를 입력하거나, 문서를 복사해서 넣어주세요"></textarea>
-    <div id="countTotal">0 글자</div>
-    <div id="countNoSpaces">0 글자</div>
+        placeholder="글자를 입력하거나, 문서를 복사해서 넣어주세요"></textarea><br>
+    <div id="countTotal">공백 포함 : </div><br>
+    <div id="countNoSpaces">공백 제외 : </div>
     <script src="popup.js"></script>
 </body>
 </html>
