@@ -1,11 +1,11 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Text-Tracker",
     "version": "1.0",
-    "description": "글자 수가 몇 글자인지 알려줍니다.",
-    "browser_action": {
+    "description": "글자 수를 카운팅하는 프로그램입니다.",
+    "action": {
         "default_popup": "popup.html",
-        "default_icon": "icon.png"
+        "default_icon": "icons/text-tracker-16.png"
     },
     "permissions": ["activeTab"]
 }
