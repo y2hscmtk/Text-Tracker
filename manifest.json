@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "Text-Tracker",
+    "version": "1.0",
+    "description": "글자 수가 몇 글자인지 알려줍니다.",
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    },
+    "permissions": ["activeTab"]
+}
